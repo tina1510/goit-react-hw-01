@@ -1,0 +1,74 @@
+.container {
+  border: 2px solid #000;
+  width: 350px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 16px;
+  padding-left: 0;
+  overflow: hidden;
+}
+.icon {
+  width: 140px;
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #686868;
+  margin: 0 auto;
+}
+
+.userName {
+  margin: 0;
+  font-size: 24px;
+  padding-top: 16px;
+  font-weight: bold;
+}
+.tag {
+  margin: 0;
+  font-size: 24px;
+  padding-top: 16px;
+  color: #595757;
+}
+.location {
+  margin: 0;
+  font-size: 24px;
+
+  padding-top: 8px;
+  padding-bottom: 24px;
+  color: #595757;
+}
+
+.containerActivity {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  column-gap: inherit;
+  background-color: #ccc;
+  margin: 0 auto;
+  width: 100%;
+  padding-left: 0;
+  border-top: 2px solid;
+}
+.activityIcon {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-left: 2px solid;
+}
+.activityIcon:first-child {
+  border-left: none;
+}
+
+.activityText {
+  font-weight: bold;
+}
